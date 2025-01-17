@@ -1,0 +1,21 @@
+{
+    "name": "express-app",
+    "version": "1.0.0",
+    "description": "A simple Express.js project",
+    "main": "index.js",
+    "scripts": {
+        "start:basic": "node without_cluster.js",
+        "start:cluster": "node with_cluster.js",
+        "dev:basic": "nodemon --env-file=.env without_cluster.js",
+        "dev:cluster": "nodemon --env-file=.env with_cluster.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
